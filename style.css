@@ -132,6 +132,16 @@ li:hover {
   -webkit-background-size: cover;
   -webkit-background-position: center;
   -webkit-background-attachment: fixed;
+  
+  -moz-background-image: url("img/cubes.png");
+  -moz-background-size: cover;
+  -moz-background-position: center;
+  -moz-background-attachment: fixed;
+  
+  -o-background-image: url("img/cubes.png");
+  -o-background-size: cover;
+  -o-background-position: center;
+  -o-background-attachment: fixed;
 }
 
 .animated-text {
