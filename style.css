@@ -218,7 +218,17 @@ button:hover {
   cursor: pointer;
   width: 40px;
   height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(35,35,35, 0.5);
+  transition: ease 0.3s;
 }
+.carousel .carousel_actions button:hover {
+  color: #232323;
+  background-color: rgba(255,255,255, 0.5);
+  transition: ease 0.3s;
+}
+
 
 .carousel .carousel_actions button#carousel_button--prev {
   margin-left: 10px;
@@ -271,6 +281,15 @@ button:hover {
   cursor: pointer;
   width: 40px;
   height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(35,35,35, 0.5);
+  transition: ease 0.3s;
+}
+.carousel1 .carousel_actions1 button:hover {
+  color: #232323;
+  background-color: rgba(255,255,255, 0.5);
+  transition: ease 0.3s;
 }
 
 .carousel1 .carousel_actions1 button#carousel_button--prev1 {
