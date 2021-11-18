@@ -500,7 +500,7 @@ button:hover {
 }
 
 #site-footer {
-  height: 350px;
+  height: 450px;
   /* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
   /* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
   background-color: #496889;
@@ -526,7 +526,15 @@ footer {
   background-color: #232323;
   padding: 10px;
 }
+.icon {
+  margin-bottom: -20px;
+}
 
+img#site-footer {
+  border-radius: 50%;
+  width: 100%;
+  border: solid #1f4064 1px;
+}
 /*----------------------Responsive Rules -------------------------*/
 
 
@@ -569,6 +577,9 @@ footer {
   }
   #site-content {
     margin-bottom: 350px;
+  }
+  #site-footer {
+    height: 350px;
   }
   .carousel {
     max-width: 1920px;
