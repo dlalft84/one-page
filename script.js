@@ -68,3 +68,50 @@ function updateSlidePosition() { // crée la fonction updateSlidePostition (MaJ 
 
  	updateSlidePosition();
  }
+
+// Slider mobile
+let slidePosition1 = 0; // slidePosition(position de départ) = 0
+const slides1 = document.getElementsByClassName('carousel_item1'); // slides = classe .carousel_item
+const totalSlides1 = slides1.length; // totalSlide = length(longueur) du total des slides (classes .carousel_item)
+
+document.
+ getElementById('carousel_button--next1') // pour tout élément avec id #carousel_button--next
+ .addEventListener("click", function() { // avouter la fonction click pour passer à slide suivante
+ 	moveToNextSlide1();
+ })
+
+document.
+ getElementById('carousel_button--prev1') // pour tout élément avec id #carousel_button--prev
+ .addEventListener("click", function() { // avouter la fonction click pour passer à slide précédente
+ 	moveToPrevSlide1();
+ })
+
+function updateSlidePosition1() { // crée la fonction updateSlidePostition (MaJ de slidePosition)
+
+	for (let slide1 of slides1) {
+		slide1.classList.remove('carousel_item--visible1');
+		slide1.classList.add('carousel_item--hidden1');
+	}
+	slides1[slidePosition1].classList.add('carousel_item--visible1');
+}
+
+
+ function moveToNextSlide1() {
+ 	if (slidePosition1 === totalSlides1 - 1) {
+ 		slidePosition1 = 0; 
+ 	} else {
+ 		slidePosition1++;
+ 	}
+
+ 	updateSlidePosition1();
+ }
+
+  function moveToPrevSlide1() {
+ 	if (slidePosition1 ===0) {
+ 		slidePosition1 = totalSlides1 - 1;
+ 	} else {
+ 		slidePosition1--;
+ 	}
+
+ 	updateSlidePosition1();
+ }
