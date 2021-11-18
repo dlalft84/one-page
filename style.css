@@ -529,6 +529,9 @@ footer {
 .icon {
   margin-bottom: -20px;
 }
+.social-icon {
+  padding: 0 10px;
+}
 
 
 /*----------------------Responsive Rules -------------------------*/
