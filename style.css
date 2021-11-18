@@ -230,7 +230,7 @@ button:hover {
 /*Mobile Slider*/
 .carousel1 {
   overflow: hidden;
-  max-width: 1158px;
+  max-height: 700px;
   position: relative;
   margin: auto;
   background-position: center;
@@ -245,8 +245,7 @@ button:hover {
 
 .carousel1 .carousel_item1 img {
   width: 100%;
-  height: auto;
-  max-width: 1158px;
+  max-height: 700px;
   background-position: center;
 
 }
