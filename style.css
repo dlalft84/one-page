@@ -506,7 +506,9 @@ button:hover {
   background-color: #496889;
 }
 
-
+.spacer {
+  padding: 5px 0;
+}
 
 .map {
   border:0;
