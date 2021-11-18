@@ -229,6 +229,59 @@ button:hover {
   margin-right: 10px;
 }
 
+/*Mobile Slider*/
+.carousel1 {
+  overflow: hidden;
+  max-width: 1158px;
+  position: relative;
+  margin: auto;
+  background-position: center;
+  background-color: #232323;
+
+}
+
+.carousel1 .carousel_item1,
+.carousel1 .carousel_item--hidden1 {
+  display: none;
+}
+
+.carousel1 .carousel_item1 img {
+  width: 100%;
+  height: auto;
+  max-width: 1158px;
+  background-position: center;
+
+}
+
+.carousel1 .carousel_item--visible1 {
+  display: block;
+  animation: fadeVisibility ease 1.5s;
+}
+
+.carousel1 .carousel_actions1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel1 .carousel_actions1 button {
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel1 .carousel_actions1 button#carousel_button--prev1 {
+  margin-left: 10px;
+}
+
+.carousel1 .carousel_actions1 button#carousel_button--next1 {
+  margin-right: 10px;
+}
 
 
 
@@ -437,40 +490,25 @@ button:hover {
   background-color: #4B466F
 }
 
+.map {
+  border:0;
+}
+
+footer {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.footer-bottom {
+  background-color: #2D2D2D;
+}
+
+.copyright {
+  background-color: #232323;
+  padding: 10px;
+}
 
 /*----------------------Responsive Rules -------------------------*/
-
-@media only screen and (min-width: 768px) {
-  #menuToggle {
-    display: none;
-  }
-  .mini-logo {
-    display: none;
-  }
-  .carousel .carousel_actions {
-    top: 50%;
-  }
-  #site-content {
-    margin-bottom: 250px;
-  }
-  .carousel {
-    height: 700px;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  #menuBig {
-    display: none;
-  }
-  .logo {
-    display: none;
-  }
-}
-
-[class*="col-"] {
-  width: 100%;
-}
 
 @media only screen and (min-width: 768px) {
   [class*="col-"] {
@@ -495,6 +533,50 @@ button:hover {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+@media only screen and (min-width: 768px) {
+  #menuToggle {
+    display: none;
+  }
+  .mini-logo {
+    display: none;
+  }
+  .carousel .carousel_actions {
+    top: 50%;
+  }
+  #site-content {
+    margin-bottom: 350px;
+  }
+  .carousel {
+    max-width: 1920px;
+    height: 620px;
+  }
+  .carousel .carousel_item img {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    margin-top: -100px;
+  }
+  #mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #menuBig {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  [class*="col-"] {
+  width: 100%;
+  }
+  #laptop {
+    display: none;
+  }
+}
 
 /*Fonts*/
 
