@@ -8,7 +8,7 @@ body
 {
   text-align: center;
   /* make it look decent enough */
-  background-color: #232323;
+  background-color: #496889;
   color: white;
   }
 
@@ -67,6 +67,7 @@ section {
 header {
   margin: 0;
   padding: 0;
+  background-color: #232323;
 }
 
 div {
@@ -483,7 +484,7 @@ button:hover {
   height: 350px;
   /* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
   /* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
-  background-color: #4B466F
+  background-color: #496889;
 }
 
 
