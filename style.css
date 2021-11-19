@@ -673,6 +673,13 @@ footer {
     display: none;
   }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .bg-img {
+    background-attachment: scroll;
+  }
+}
+
 /*Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
