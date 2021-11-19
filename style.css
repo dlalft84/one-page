@@ -139,11 +139,6 @@ li:hover {
   background-image: url("img/cubes.png");
   background-position: center;
   
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  
   background-attachment: scroll;
   -moz-background-attachment: scroll;
   -webkit-background-attachment: scroll;
@@ -653,6 +648,14 @@ footer {
     -moz-background-attachment: fixed;
     -webkit-background-attachment: fixed;
     -o-background-attachment: fixed;
+    
+    background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  }
+  #site-footer {
+    font-size: 25px;
   }
 }
 
