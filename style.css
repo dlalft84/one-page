@@ -629,6 +629,7 @@ footer {
   }
   #site-footer {
     height: 350px;
+    font-size: 25px;
   }
   .carousel {
     max-width: 1920px;
@@ -654,9 +655,7 @@ footer {
   -webkit-background-size: cover;
   -o-background-size: cover;
   }
-  #site-footer {
-    font-size: 25px;
-  }
+  
 }
 
 @media only screen and (max-width: 768px) {
