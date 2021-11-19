@@ -144,10 +144,10 @@ li:hover {
   -webkit-background-size: cover;
   -o-background-size: cover;
   
-  background-attachment: fixed;
-  -moz-background-attachment: fixed;
-  -webkit-background-attachment: fixed;
-  -o-background-attachment: fixed;
+  background-attachment: scroll;
+  -moz-background-attachment: scroll;
+  -webkit-background-attachment: scroll;
+  -o-background-attachment: scroll;
 }
 
 .services {
@@ -648,6 +648,12 @@ footer {
   }
   #mobile {
     display: none;
+  }
+  .bg-img {
+    background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -o-background-attachment: fixed;
   }
 }
 
