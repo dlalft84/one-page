@@ -492,6 +492,26 @@ button:hover {
   color: white;
 }
 
+.galery1 {
+  background-image: url("img/city.jpg");
+  height: 425px;
+}
+
+.galery2 {
+  background-image: url("img/street.jpg");
+  height: 425px;
+}
+
+.galery3 {
+  background-image: url("img/sky.jpg");
+  height: 425px;
+}
+
+.galery4 {
+  background-image: url("img/girl.jpg");
+  height: 425px;
+}
+
 #site-content {
   height: 100%;
   padding-top: 65px;
