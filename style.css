@@ -164,7 +164,7 @@ li:hover {
 
 .separator {
  margin: auto;
-  width: 200px;
+  width: 150px;
   background-color: #1c1c1c;
   height: 4px;
   border-radius: 50%;
@@ -739,7 +739,7 @@ footer {
     height: 6px;
   }
   100% {
-    margin-left: 200px;
+    margin-left: 150px;
     width: 4px;
     height: 4px;
   }
@@ -756,7 +756,7 @@ footer {
     height: 5px;
   }
   100% {
-    margin-left: 200px;
+    margin-left: 150px;
     width: 4px;
     height: 4px;
   }
