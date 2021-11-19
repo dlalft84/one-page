@@ -141,6 +141,23 @@ li:hover {
   background-attachment: fixed;
 }
 
+.services {
+  background-color: #2C2C2C;
+  border-radius: 50px;
+  box-shadow: 0 0 50px #ffffff;
+  margin: 50px 100px;
+  padding: 50px 25px;
+}
+
+.service-img {
+  padding-bottom: 35px;
+}
+
+.service-text {
+  padding: 10px 20px;
+  border: solid #1d1d1d 1px;
+}
+
 .animated-text {
   padding-top: 100px;
 }
