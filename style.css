@@ -135,9 +135,17 @@ li:hover {
   height: 250px;
   background-color: #232323;
   background-image: url("img/cubes.png");
-  background-size: cover;
   background-position: center;
+  
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  
   background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  -o-background-attachment: fixed;
 }
 
 .services {
