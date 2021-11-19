@@ -162,6 +162,24 @@ li:hover {
   border: solid #1d1d1d 1px;
 }
 
+.separator {
+  margin: auto;
+  width: 200px;
+  background-color: #1c1c1c;
+  height: 2px;
+
+}
+.shine {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 2px;
+  width: 2px;
+  animation: shinning linear 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  box-shadow: 0 0 3px #ffffff;
+}
+
 .animated-text {
   padding-top: 100px;
 }
@@ -707,6 +725,24 @@ footer {
   100% {
     opacity: 1;
     transform: opacity ease;
+  }
+}
+
+@keyframes shinning {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
+  }
+}
+
+@-webkit-keyframes shinning {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
   }
 }
 
