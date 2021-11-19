@@ -655,7 +655,14 @@ footer {
   -webkit-background-size: cover;
   -o-background-size: cover;
   }
-  
+  .galery1, .galery2, .galery3, .galery4 {
+    opacity: 0.5;
+    transition: ease 0.5s;
+  }
+  [class*="galery"]:hover{
+    opacity: 1;
+    transition: ease 0.5s;
+  }
 }
 
 @media only screen and (max-width: 768px) {
