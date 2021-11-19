@@ -10,6 +10,8 @@ body
   /* make it look decent enough */
   background-color: #496889;
   color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
   }
 
 /* PreLoader */
@@ -616,6 +618,9 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+  }
   #menuToggle {
     display: none;
   }
