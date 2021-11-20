@@ -577,7 +577,7 @@ button:hover {
 
 .map {
   border:0;
-  margin: 10px 0;
+  padding: 20px 0;
 }
 
 footer {
@@ -643,15 +643,21 @@ footer {
     top: 50%;
   }
   #site-content {
-    margin-bottom: 350px;
+    margin-bottom: 300px;
   }
   #site-footer {
     height: 350px;
-    bottom: -90px;
+    bottom: -60px;
   }
   .carousel {
     max-width: 1920px;
     max-height: 920px;
+  }
+  .spacer1 {
+  padding: 45px 0;
+  }
+  .spacer2 {
+  padding: 65px 0;
   }
   #mobile {
     display: none;
