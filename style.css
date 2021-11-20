@@ -563,11 +563,11 @@ button:hover {
 
 #site-content {
   background-color: #232323;
-  margin-bottom: 450px;
+  margin-bottom: 350px;
 }
 
 #site-footer {
-  height: 450px;
+  height: 350px;
   background-color: #496889;
 }
 
@@ -646,8 +646,8 @@ footer {
     margin-bottom: 300px;
   }
   #site-footer {
-    height: 350px;
-    bottom: -50px;
+    height: 300px;
+    bottom: -10px;
   }
   .carousel {
     max-width: 1920px;
