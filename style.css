@@ -557,7 +557,7 @@ button:hover {
   z-index: -1;
   left: 0;
   right: 0;
-  bottom: -45px;
+  bottom: 0;
   
 }
 
@@ -648,7 +648,7 @@ footer {
   }
   #site-footer {
     height: 300px;
-    bottom: -35px;
+    bottom: -10px;
   }
   .carousel {
     max-width: 1920px;
