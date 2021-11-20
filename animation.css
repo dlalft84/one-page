@@ -161,6 +161,13 @@ a:hover {
 	animation-iteration-count: infinite;
 }
 /*----------------------------------------RESPONSIVE-----------------------------------------*/
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+  width: 100%;
+  }
+}
+
+
 [class*="col-"] {
   width: 100%;
   }
@@ -284,6 +291,7 @@ a:hover {
 		left: -50px;
 	}
 }
+	
 @media only screen and (min-width: 992px) {
   @keyframes animate {
 	0% {
