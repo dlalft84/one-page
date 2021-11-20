@@ -600,7 +600,9 @@ footer {
 }
 
 .social-icon {
-  padding: 0 10px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: ease 0.8s;
 }
 
 /*----------------------Responsive Rules -------------------------*/
