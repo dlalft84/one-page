@@ -557,19 +557,17 @@ button:hover {
   z-index: -1;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -20px;
 }
 
 
 #site-content {
   background-color: #232323;
-  margin-bottom: 350px;
+  margin-bottom: 450px;
 }
 
 #site-footer {
   height: 450px;
-  /* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
-  /* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
   background-color: #496889;
 }
 
@@ -649,7 +647,7 @@ footer {
   }
   #site-footer {
     height: 350px;
-    font-size: 25px;
+    bottom: -90px;
   }
   .carousel {
     max-width: 1920px;
