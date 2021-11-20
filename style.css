@@ -604,6 +604,10 @@ footer {
   border-radius: 20px;
   transition: ease 0.8s;
 }
+.social-icon:hover {
+  background-color: #1f4064;
+  transition: ease 0.8s;
+}
 
 /*----------------------Responsive Rules -------------------------*/
 
